@@ -103,7 +103,7 @@ public class LambdaSpeechlet implements Speechlet {
         String speakerName = speaker.value
         String speechText = ""
         if("ryan".equalsIgnoreCase(speakerName)) {
-            speechText = "Ryan v g a Vanderwerf is a software engineer on the Grails Team at OCI, which is the new home to Grails.  It shouldn't be a surprise to you to know that he is actively involved in the Groovy and Grails community.  Ryan likes to modify all things like cars, home automation, phones, gadgets and even yours truly, Alexa."
+            speechText = "Ryan Vanderwerf is a software engineer on the Grails Team at OCI.  Blah blah blah"
         } else {
             speechText = "Lee Fox is the Cloud architect and operations manager at Starmount.  His background is in development as a Java Developer, and while he tries with Groovy, I can assure you that he doesn't write pretty Groovy code."
         }

@@ -1,13 +1,11 @@
 {
   "intents": [
     {
-      "intent": "ResponseIntent",
-      "slots": [
-        {
-          "name": "Answer",
-          "type": "AMAZON.LITERAL"
-        }
-      ]
+      "intent": "WhoIntent",
+      "slots": [ {
+        "name": "Speaker",
+        "type": "Speaker"
+      } ]
     }
   ]
 }

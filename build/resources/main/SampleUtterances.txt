@@ -1,5 +1,2 @@
-ResponseIntent {test|Answer}
-ResponseIntent {last player|Answer}
-ResponseIntent {test test|Answer}
-ResponseIntent {test test test|Answer}
-ResponseIntent {test test test test|Answer}
+WhoIntent Who is {Speaker}
+WhoIntent about {Speaker}
