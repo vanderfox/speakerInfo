@@ -103,9 +103,9 @@ public class LambdaSpeechlet implements Speechlet {
         String speakerName = speaker.value
         String speechText = ""
         if("ryan".equalsIgnoreCase(speakerName)) {
-            speechText = "Ryan Vanderwerf is a software engineer on the Grails Team at OCI.  Blah blah blah"
+            speechText = "Ryan Vanderwerf is a software engineer on the Grails Team at OCI.  He writes lots of code and is your typical geek.  He likes cars and me."
         } else {
-            speechText = "Lee Fox is the Cloud architect and operations manager at Starmount.  His background is in development as a Java Developer, and while he tries with Groovy, I can assure you that he doesn't write pretty Groovy code."
+            speechText = "Lee Fox is a Cloud architect at Infor.  Want to know a secret about Lee?  He uses semicolons when he writes Groovy code.  Be sure to tell him how much you like his hat."
         }
         tellResponse(speechText, speechText)
     }
